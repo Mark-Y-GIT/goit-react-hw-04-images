@@ -29,7 +29,7 @@ function App() {
 
             setStatus('resolved');
           } else {
-            setError(`No data on request ${this.state.pictureName}`);
+            setError(`No data on request ${pictureName}`);
             setStatus('rejected');
           }
         })
